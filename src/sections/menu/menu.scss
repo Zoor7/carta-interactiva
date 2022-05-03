@@ -1,0 +1,93 @@
+.menu{
+    position: relative;
+    display: grid;
+    align-content: flex-start;
+    gap: 3rem;
+    border: 1px solid black;
+    padding: 1rem 0;
+    height: 100%;
+    padding-bottom: 3rem;
+    
+    .header{
+        position: sticky;
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+        span{
+            cursor: pointer;
+            border: 1px solid black;
+            padding: 3px 20px;
+            border-radius: 5px;
+        }
+    }
+    .header2{
+        justify-content: space-around;
+    }
+}
+.comida{
+    display: grid;
+    gap: 3rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+.producto-pintxo{
+    display: grid;
+    gap: 0.5rem;
+}
+.producto-counter{
+    display: flex;
+    gap: 2rem;
+}
+.producto-desc{
+    padding: 0 10px;
+}
+.product-desc-arr{
+    display: grid;
+}
+.producto-plato{
+    display: grid;
+    gap: 0.5rem;
+}
+.producto-plato-precio{
+    display: flex;
+    justify-content: space-between;
+}
+.producto-postre{
+    display: grid;
+    padding-left: 10px;
+    div{
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+.comida-postre{
+    display: grid;
+    gap: 1rem;
+}
+.list-btn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: #115528;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    z-index: 5;
+    img{
+        width: 100%;
+
+    }
+}
+.modal2{
+    position: absolute;
+    background-color: aqua;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:1;
+    background-color: rgba($color: #000000, $alpha: 0.7);
+}

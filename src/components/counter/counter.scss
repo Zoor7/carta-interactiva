@@ -1,0 +1,16 @@
+.counter{
+    display: flex;
+    gap: 0.5rem;
+
+    span{
+        font-weight: 900;
+        cursor: pointer;
+        height: fit-content;
+    }
+}
+.counter-display{
+    border: 1px solid black;
+    padding: 0 5px;
+
+    
+}

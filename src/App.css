@@ -1,0 +1,8 @@
+.App {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(100px,600px);
+  justify-content: center;
+  height: 100%;
+}
+

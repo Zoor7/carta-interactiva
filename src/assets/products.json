@@ -1,0 +1,168 @@
+{
+  "Pintxos": {
+    "Pintxos Calientes": {
+      "carne": [
+        "Txistorra de Arbizu.",
+        "Carrillera ibérica a la brasa.",
+        "Butifarra de perol de Cal Rovira.",
+        "Lagarto de cerdo ibérico a la brasa.",
+        "Hamburguesita de ternera a la brasa con cebolla potxada.",
+        "Hamburguesita de ternera a la brasa con foie.",
+        "Sobrasada de Cal Rovira con dulce de manzana y nueces.",
+        "Morcilla de Burgos con puré de manzana.",
+        "San Jacobo"
+      ],
+      "pescados": ["Bacalao con muselina de ajo gratinada."],
+      "croquetas de la amuma maite": [
+        "Jamón ibérico de bellota.",
+        "Rustido.",
+        "Ceps (boletus edulis).",
+        "Cecina con queso Idiazábal."
+      ],
+      "quesos": [
+        "Cebolla potxada al Oporto con queso de cabra, miel y nueces.",
+        "Dulce de manzana con brie y nueces.",
+        "Brie con confitura de tomate y olivada.",
+        "Queso brie gratinado con jamón ibérico de bellota.",
+        "Camembert rebozado.",
+        "Manzana con queso de cabra gratinado."
+      ],
+      "verduras": ["Alcachofa rebozada con romescu."],
+      "huevos de codorniz con": [
+        "Txistorra de Arbizu.",
+        "Sobrasada de Cal Rovira.",
+        "Foie mi cuit de pato."
+      ]
+    },
+    "Pintxos Frios": {
+      "tortilla de patatas": ["Con pan con tomate."],
+      "embutidos y quesos": [
+        "Chorizo picante de León.",
+        "Jamón ibérico de bellota DO Huelva con pan con tomate.",
+        "Jamón ibérico de bellota con flor de queso Tête de Moine.",
+        "Jamón ibérico de bellota con queso de cabra y frutos del bosque.",
+        "Sobrasada de Cal Rovira con flor de queso Tête de Moine."
+      ],
+      "foie de pato con": [
+        "Con jamón ibérico de bellota.",
+        "Con anchoa y reducción de PX.",
+        "Con puré de manzana."
+      ],
+      "pescados": [
+        "Gilda.",
+        "Txaka (cangrejo).",
+        "Rollito de salmón ahumado relleno de txaka con boquerón y piquillo.",
+        "Banderilla de bacalao con oliva Gordal y piparra."
+      ]
+    }
+  },
+  "Platos": {
+    "para picar": {
+      "Patatas bravas": {
+        "precio": "6.95€"
+      },
+      "Bikini": {
+        "desc": "Pan de brioche, queso gruyère y butifarra del perol de Cal Rovira.",
+        "precio": "6.95€"
+      },
+      "Anchoas en aceite de oliva": {
+        "precio": "9.95€"
+      },
+      "Chorizo picante de León": {
+        "precio": "7.60€"
+      },
+      "Pan con tomate": {
+        "desc": "Coca de Cal Mossèn de Folgueroles.",
+        "precio": "4.95€"
+      },
+      "Queso Idiazábal": {
+        "precio": "7.60€"
+      },
+      "Surtido de quesos": {
+        "desc": "De pequeños productores",
+        "precio": "13.95€"
+      },
+      "Croquetas": {
+        "desc": [
+          "Jamón ibérico de bellota.",
+          "Rustido.",
+          "Ceps (boletus edulis).",
+          "Cecina con queso Idiazábal."
+        ],
+        "precio": "10.50€"
+      }
+    },
+    "entrantes": {
+      "Ensalada Tamborrada": {
+        "desc": "Hoja de roble, queso Idiazábal rallado, almendras, nueces, y pasas.",
+        "precio": "11.25€"
+      },
+      "Corazones de alcachofa de Mendavia Rebozados": {
+        "desc": "Con salsa romesco.",
+        "precio": "10.75€"
+      },
+      "Nidito de foie a la brasa": {
+        "desc": "Con huevo frito y patatas paja.",
+        "precio": "13.25€"
+      },
+      "Ajoarriero de bacalao y gambas": { "precio": "11.25€" },
+      "Arrautxes del Sacristán": {
+        "desc": "Patatas fritas, huevos fritos y picada de chorizo picante con pimientos y cebolla",
+        "precio": "12.25€"
+      },
+      "Pimientos de piquillo": {
+        "desc": "Asados a la leña. Pruebalos con carnes a la brasa.",
+        "precio": "10.95€"
+      }
+    },
+    "Especialidades": {
+      "Potxas a la vasca": { "precio": "10.25€" },
+      "Huevos fritos con Txistorra de Arbizu y patatas fritas": { "precio": "10.75€" },
+      "Tortilla de bacalao": { "precio": "12.50€" },
+      "Oreja de cerdo de Cal Rovira": { "desc": "Con huevos fritos.", "precio": "10.50€" }
+    },
+    "Carnes": {
+      "Tiras de pollo": { "desc": "Rebozadas con salsa de miel y mostaza.", "precio": "10.75€" },
+      "Callos a la vasca con garbanzos": { "precio": "11.95€" },
+      "Manitas de cerdo": { "desc": "En salsa con setas.", "precio": "14.75€" },
+      "Carrillera de vacuno mayor": {
+        "desc": "En salsa de vino tinto de la Rioja Alavesa",
+        "precio": "13.95€"
+      }
+    },
+    "Brasa de Leña": {
+      "Pollo. Muslo deshuesado": {
+        "desc": "Se puede pedir con: Patatas fritas o Ensalada",
+        "precio": "10.75€"
+      },
+      "Abanico de cerdo ibérico": { "desc": "Con patatas fritas.", "precio": "14.25€" },
+      "Chuletón de vacuno mayor madurado": {
+        "desc": "Al corte. Peso mínimo 400 gr. aprox. Sin hueso ni tapa. Acompañamiento patatas fritas.",
+        "precio": "89€/kg"
+      }
+    },
+    "Prescados": {
+      "Dados de merluza de anzuelo rebozados": {
+        "desc": "Con mahonesa cítrica",
+        "precio": "19.30€"
+      },
+      "Lubina a la donostiarra": { "precio": "19.25€" },
+      "Garbanzos con bacalao": { "precio": "12.25€" },
+      "Colita de bacalao a la vizcaína": {
+        "desc": "Salsa tradicional vasca a base de cebolla y pimiento choricero.",
+        "precio": "16.50€"
+      },
+      "Corval a la brasa": { "precio": "22.50€" }
+    }
+  },
+  "Postres": {
+    "Patxineta": { "desc": "Hojaldre con almendras relleno de crema", "precio": "6.95€" },
+    "Lingote": { "desc": "de mousse chocolate y avellanas", "precio": "7.20€" },
+    "Goxua": { "desc": "Nata, bizcocho borracho y crema.", "precio": "6.50€" },
+    "Queso Idiazábal": { "desc": "Con dulce de manzana y nueces.", "precio": "6.90€" },
+    "Sorbete de limón": { "precio": "5.85€" },
+    "Surtido de quesos": { "desc": "De pequeños productores.", "precio": "13.95€" },
+    "Piña": { "desc": "Infusionada con lima, menta y coco", "precio": "7.25€" },
+    "Tatín de manzana": { "desc": "Con helado de canela de Ceilán.", "precio": "6.95€" }
+  }
+}
