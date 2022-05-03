@@ -31,7 +31,6 @@ const Menu = () => {
     const newObj = { ...food, [item]: counter }
     localStorage.setItem('food', JSON.stringify(newObj))
     setFood(newObj)
-    console.log(food)
   }
 
   const handleComida = (e) => {
@@ -54,17 +53,47 @@ const Menu = () => {
       <Modal handleModal={handleModal} removeFood={removeFood} isOpen={isOpen} food={food} />
       <div className={`modal2 ${isOpen ? 'open' : 'closed'}`}></div>
 
-      <img onClick={handleModal} className="list-btn" src={iconlist} alt="list-btn" />
-
       <div className="header1 header">
-        <span onClick={(e) => handleComida(e.target)}>Pintxos</span>
-        <span onClick={(e) => handleComida(e.target)}>Platos</span>
-        <span onClick={(e) => handleComida(e.target)}>Postres</span>
+        <span
+          className={`${comida === 'Temporada' ? 'active' : ''}`}
+          onClick={(e) => handleComida(e.target)}
+        >
+          Temporada
+        </span>
+        <span
+          className={`${comida === 'Pintxos' ? 'active' : ''}`}
+          onClick={(e) => handleComida(e.target)}
+        >
+          Pintxos
+        </span>
+        <span
+          className={`${comida === 'Platos' ? 'active' : ''}`}
+          onClick={(e) => handleComida(e.target)}
+        >
+          Platos
+        </span>
+
+        <span
+          className={`${comida === 'Postres' ? 'active' : ''}`}
+          onClick={(e) => handleComida(e.target)}
+        >
+          Postres
+        </span>
       </div>
       {comida === 'Pintxos' && (
         <div className="header2 header">
-          <span onClick={(e) => handlePintxo(e.target)}>Pintxos Frios</span>
-          <span onClick={(e) => handlePintxo(e.target)}>Pintxos Calientes</span>
+          <span
+            className={`${pintxo === 'Pintxos Frios' ? 'active' : ''}`}
+            onClick={(e) => handlePintxo(e.target)}
+          >
+            Pintxos Frios
+          </span>
+          <span
+            className={`${pintxo === 'Pintxos Calientes' ? 'active' : ''}`}
+            onClick={(e) => handlePintxo(e.target)}
+          >
+            Pintxos Calientes
+          </span>
         </div>
       )}
       {comida === 'Pintxos' && (
@@ -121,6 +150,7 @@ const Menu = () => {
           ))}
         </div>
       )}
+      <img onClick={handleModal} className="list-btn" src={iconlist} alt="list-btn" />
     </div>
   )
 }

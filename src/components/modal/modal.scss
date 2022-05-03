@@ -3,9 +3,9 @@
     margin: auto;
     display: grid;
     align-content: flex-start;
+    justify-self: center;
     top: 0;
-    left: 0;
-    right: 0;
+    min-width: 300px;
     bottom: 0;
     height: 400px;
     background-color: #115528;

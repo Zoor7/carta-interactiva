@@ -4,15 +4,13 @@
     align-content: flex-start;
     gap: 3rem;
     border: 1px solid black;
-    padding: 1rem 0;
     height: 100%;
-    padding-bottom: 3rem;
-    
+
     .header{
-        position: sticky;
-        display: flex;
+        padding: 0 1rem;
+        align-items: center;
         height: 30px;
-        justify-content: space-between;
+        overflow-x: auto;
         span{
             cursor: pointer;
             border: 1px solid black;
@@ -20,14 +18,27 @@
             border-radius: 5px;
         }
     }
+    .header1{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+        gap: 0.5rem;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
     .header2{
+        display: flex;
         justify-content: space-around;
     }
+}
+.active{
+    color: white;
+    background-color: #115528;
 }
 .comida{
     display: grid;
     gap: 3rem;
-    margin-bottom: 20px;
     padding: 0 10px;
 }
 .producto-pintxo{
@@ -36,11 +47,9 @@
 }
 .producto-counter{
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
 }
-.producto-desc{
-    padding: 0 10px;
-}
+
 .product-desc-arr{
     display: grid;
 }
@@ -48,13 +57,16 @@
     display: grid;
     gap: 0.5rem;
 }
+.producto-desc{
+    padding: 0 10px;
+}
 .producto-plato-precio{
     display: flex;
     justify-content: space-between;
 }
 .producto-postre{
     display: grid;
-    padding-left: 10px;
+    padding: 0 10px;
     div{
         display: flex;
         justify-content: space-between;
@@ -63,12 +75,15 @@
 }
 .comida-postre{
     display: grid;
+    padding: 0 10px;
     gap: 1rem;
 }
+
 .list-btn{
-    position: fixed;
+    position: sticky;
     bottom: 0;
-    right: 0;
+    display: flex;
+    justify-self: flex-end;
     width: 50px;
     height: 50px;
     background-color: #115528;
@@ -76,14 +91,10 @@
     border-radius: 5px;
     margin: 0.5rem;
     z-index: 5;
-    img{
-        width: 100%;
 
-    }
 }
 .modal2{
     position: absolute;
-    background-color: aqua;
     top: 0;
     bottom: 0;
     left: 0;

@@ -16,7 +16,7 @@ const Modal = ({ handleModal, removeFood, isOpen, food }) => {
         </div>
         <div className="modal-items">
           {Object.entries(food).map((item) => (
-            <div className="modal-item">
+            <div key={item} className="modal-item">
               <p>x{item[1]}</p>
               <p>{item[0]}</p>
             </div>

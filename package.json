@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "vite build && npm run deploy",
+    "deploy": "git add dist -f && git commit -m Adding dist && git subtree push --prefix dist origin gh-pages",
     "preview": "vite preview"
   },
   "dependencies": {
